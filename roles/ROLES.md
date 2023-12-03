@@ -1,13 +1,13 @@
 # Roles cards
 
-This are the playing roles, you need at least one C-level and one Worker-Level card.
+These are the roles you can play. You need at least one C-level and one staff-level card.
 
-The data format is a simple JSON with the strcture:
+The data format is a simple JSON with the structure:
 
 {
-    "title": "Worker",
-    "description": "Normal Worker. You may not take resources from the company pile.",
-    "role: "WORKER"
+    "title": "Staff",
+    "description": "Normal staff employee. You may not take resources from the company pile.",
+    "role: "STAFF"
 }
 
 {
