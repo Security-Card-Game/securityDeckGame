@@ -3,3 +3,7 @@ This card game aims to help people learn about security while playing out scenar
 
 # Contributing
 This idea sounds good to you and you'd like to chime in? You're welcome to support us by joining as contributor, providing feedback, become a playtester and more! Feel free to reach out to us directly.
+
+# License
+
+This work is licensed under CC-BY-SA 4.0. You can find an explanation [here](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
