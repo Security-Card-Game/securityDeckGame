@@ -41,3 +41,24 @@ The data format is a simple JSON with the structure:
     "incidentTarget": ["version-control-system"],
     "fix": 3 - 12 resources,
 }
+
+{
+    "title": "Container images are not scanned",
+    "description": "An engineer reports an issue with an image used to build a container. The engineer suggests to integrate a container image scanner into your pipeline.",
+    "incidentTarget": ["image selection"]
+    "fix": 2-6 resources
+}
+
+{
+    "title": "Dependeny Mirror",
+    "description": "You do not mirror external build dependencies. Engineers point out the risks of broken build caused by missing dependencies and also the security risks in accidentially use non-reviewed depnendecies",
+    "incidentTarget: ["build", "production", "development"]
+    "fix": 1 - 3 resources
+}
+
+{
+    "title": "User rights in Local Storage",
+    "description": "Your shiny webapp stores a matrix of user rights in the users browser. The user can edit this rights and can gain privileges",
+    "incidentTarget: ["webserver", "frontend", "data integrity"]
+    "fix": 3 - 12 resources
+}

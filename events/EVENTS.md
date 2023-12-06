@@ -34,3 +34,9 @@ The data format is a simple JSON with the structure:
     "description": "You have a bug bounty program running. One security researcher submitted a valid finding that needs to get fixed.",
     "action: "Increase the next resource costs for a fix by 3."
 }
+
+{
+    "title": "Shareholder Meeting",
+    "description": "You have to report to your shareholder."
+    "action": "You have started wiht 5 resources, were you able to increase them to 10? If so, be happy. If not, fire one STAFF member (increase next resource costs for a fix by 8). If you are below 5: Explain yourself."
+}

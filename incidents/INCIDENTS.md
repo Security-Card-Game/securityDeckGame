@@ -26,3 +26,10 @@ The data format is a simple JSON with the structure:
     "condition": "No guardrails for image selection",
     "result: "Lose 30% revenue for the next 3 rounds"
 }
+
+{
+    "title": "Poisoned Dependency",
+    "description": "You always pull build dependencies from a public mirror - someone replaces the dependcy with one with a backdoor and breaks in",
+    "condition": "no dependency mirror",
+    "result: "Lose 30% revenue for the next 3 rounds"
+}
