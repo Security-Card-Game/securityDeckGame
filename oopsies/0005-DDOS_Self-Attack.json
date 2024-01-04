@@ -1,0 +1,14 @@
+{
+  "title": "DDOS Self-Attack",
+  "description": "Your services are suddenly not responding anymore... Until you figure out that this is caused by your own actions. You've been basically ddossing yourself!",
+  "targets": [
+    "cluster",
+    "backend",
+    "webserver"
+  ],
+  "action": "Figure out what is going on and stop it.",
+  "fix_cost": {
+    "min": 3,
+    "max": 9
+  }
+}

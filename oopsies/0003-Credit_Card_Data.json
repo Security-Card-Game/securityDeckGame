@@ -1,0 +1,14 @@
+{
+  "title": "Credit Card Data",
+  "description": "You store credit card numbers, cardholder names and checksum together in clear text in your database.",
+  "targets": [
+    "database",
+    "backup",
+    "backend"
+  ],
+  "action": "Fix me.",
+  "fix_cost": {
+    "min": 3,
+    "max": 18
+  }
+}

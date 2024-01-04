@@ -1,0 +1,5 @@
+{
+  "title": "Dependency License Change",
+  "description": "One of your key dependencies suddenly changes their license so you cannot use it anymore in a legal manner and have to rewrite your solutions.",
+  "action": "Increase the next resource costs for a fix by 5."
+}

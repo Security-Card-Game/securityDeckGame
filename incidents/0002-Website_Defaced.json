@@ -1,0 +1,9 @@
+{
+  "title": "Website Defaced",
+  "description": "Someone used your website to propagate hate speech.",
+  "targets": [
+    "frontend",
+    "webserver"
+  ],
+  "action": "Lose 25% revenue for the next 5 rounds."
+}

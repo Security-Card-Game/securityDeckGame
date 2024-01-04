@@ -1,0 +1,9 @@
+{
+  "title": "Vulnerable Image",
+  "description": "One of your teams picked an OS image that contained a backdoor - and now people are mining bitcoins on your system.",
+  "targets": [
+    "CI",
+    "supply chain"
+  ],
+  "action": "Lose 30% revenue for the next 3 rounds."
+}

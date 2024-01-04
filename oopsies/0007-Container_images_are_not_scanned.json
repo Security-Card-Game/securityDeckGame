@@ -1,0 +1,13 @@
+{
+  "title": "Container images are not scanned",
+  "description": "An engineer reports an issue with an image used to build a container. The engineer suggests to integrate a container image scanner into your pipeline.",
+  "targets": [
+    "CI",
+    "supply chain"
+  ],
+  "action": "Implement image scanning in your CI",
+  "fix_cost": {
+    "min": 2,
+    "max": 6
+  }
+}
