@@ -1,0 +1,14 @@
+{
+  "type": "oopsie",
+  "title": "Evil twins",
+  "description": "Your team got a penetration test result for your high profile android app. They are informed an evil twin may capture deep links on customer phones.",
+  "targets": [
+    "customer",
+    "data"
+  ],
+  "action": "Assess the configuration of your app and do not use deep links. Instead use platform specific, more secure links (e.g. AppLinks).",
+  "fix_cost": {
+    "min": 5,
+    "max": 10
+  }
+}

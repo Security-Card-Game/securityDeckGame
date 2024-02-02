@@ -1,0 +1,14 @@
+{
+  "type": "oopsie",
+  "title": "Bring you own device",
+  "description": "Your company allow you to bring your own device. However, they do not implement any mobile device management. Someone, looses their unlocked device...",
+  "targets": [
+    "devices",
+    "credentials"
+  ],
+  "action": "Assess the damage, rotate passwords, publish security incident, think hard about BYOD and or rolling out an MDM solution.",
+  "fix_cost": {
+    "min": 5,
+    "max": 20
+  }
+}

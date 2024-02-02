@@ -1,0 +1,14 @@
+{
+  "type": "oopsie",
+  "title": "Defaults are so helpful",
+  "description": "Your S3 bucket uses default setting. You thoght they were secure.",
+  "targets": [
+    "cloud",
+    "data"
+  ],
+  "action": "Configure your buckets correctly.",
+  "fix_cost": {
+    "min": 1,
+    "max": 3
+  }
+}

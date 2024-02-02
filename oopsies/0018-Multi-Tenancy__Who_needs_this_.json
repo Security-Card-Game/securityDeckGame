@@ -1,0 +1,13 @@
+{
+  "type": "oopsie",
+  "title": "Multi-Tenancy? Who needs this?",
+  "description": "Your team migrates data form one database to the other. They are doing this programatically and use the same tenant for all the data.",
+  "targets": [
+    "data"
+  ],
+  "action": "Roll back if you can. Then do it again. Hope nobody has seen it.",
+  "fix_cost": {
+    "min": 5,
+    "max": 10
+  }
+}
