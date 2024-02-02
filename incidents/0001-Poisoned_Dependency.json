@@ -1,4 +1,5 @@
 {
+  "type": "incident",
   "title": "Poisoned Dependency",
   "description": "You always pull build dependencies from a public mirror - someone replaces the dependcy with one with a backdoor and breaks in.",
   "targets": [

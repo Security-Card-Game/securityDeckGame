@@ -1,4 +1,5 @@
 {
+  "type": "event",
   "title": "Normal Day",
   "description": "Relax, just a normal day.",
   "action": "Nothing happens."

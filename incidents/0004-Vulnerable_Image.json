@@ -1,4 +1,5 @@
 {
+  "type": "incident",
   "title": "Vulnerable Image",
   "description": "One of your teams picked an OS image that contained a backdoor - and now people are mining bitcoins on your system.",
   "targets": [

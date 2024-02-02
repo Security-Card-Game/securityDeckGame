@@ -1,4 +1,5 @@
 {
+  "type": "incident",
   "title": "Website Defaced",
   "description": "Someone used your website to propagate hate speech.",
   "targets": [

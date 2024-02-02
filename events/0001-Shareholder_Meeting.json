@@ -1,4 +1,5 @@
 {
+  "type": "event",
   "title": "Shareholder Meeting",
   "description": "You have to report to your shareholder.",
   "action": "You have started with 5 resources, were you able to increase them to 10? If so, be happy. If not, fire one STAFF member (increase next resource costs for a fix by 8). If you are below 5: Explain yourself."

@@ -1,4 +1,5 @@
 {
+  "type": "oopsie",
   "title": "User rights in Local Storage\"",
   "description": "Your shiny webapp stores a matrix of user rights in the users browser. The user can edit this rights and can gain privileges.",
   "targets": [

@@ -1,4 +1,5 @@
 {
+  "type": "oopsie",
   "title": "Credit Card Data",
   "description": "You store credit card numbers, cardholder names and checksum together in clear text in your database.",
   "targets": [

@@ -1,4 +1,5 @@
 {
+  "type": "incident",
   "title": "DDOS Attack",
   "description": "Your services are not responding anymore - seems someone is targeting them to keep them down!",
   "targets": [

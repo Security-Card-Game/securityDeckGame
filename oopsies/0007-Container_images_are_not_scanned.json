@@ -1,4 +1,5 @@
 {
+  "type": "oopsie",
   "title": "Container images are not scanned",
   "description": "An engineer reports an issue with an image used to build a container. The engineer suggests to integrate a container image scanner into your pipeline.",
   "targets": [
