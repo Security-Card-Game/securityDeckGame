@@ -1,7 +1,7 @@
 {
   "type": "oopsie",
   "title": "Defaults are so helpful",
-  "description": "Your S3 bucket uses default setting. You thoght they were secure.",
+  "description": "Your S3 bucket uses default setting. You thought they were secure.",
   "targets": [
     "cloud",
     "data"

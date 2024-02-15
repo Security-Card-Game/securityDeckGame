@@ -1,0 +1,15 @@
+{
+  "type": "oopsie",
+  "title": "Missing audit trail",
+  "description": "You detected someone changed a highly sensitive config - yet who did it? There's no trail or indication what happened here, was it a system, an employee, a malicious actor?",
+  "targets": [
+    "backend",
+    "infrastructure",
+    "data"
+  ],
+  "action": "Restore the config and introduce audit trails for critical actions you do want to be able to trace back",
+  "fix_cost": {
+    "min": 4,
+    "max": 8
+  }
+}

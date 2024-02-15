@@ -1,7 +1,7 @@
 {
   "type": "oopsie",
   "title": "Multi-Tenancy? Who needs this?",
-  "description": "Your team migrates data form one database to the other. They are doing this programatically and use the same tenant for all the data.",
+  "description": "Your team migrates data form one database to the other. They are doing this programmatically and use the same tenant for all the data.",
   "targets": [
     "data"
   ],
