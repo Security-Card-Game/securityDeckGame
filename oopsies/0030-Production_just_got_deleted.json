@@ -1,0 +1,13 @@
+{
+  "type": "oopsie",
+  "title": "Production just got deleted",
+  "description": "Oh no! You deleted your own productive infrastructure by mistake and you don't have a backup.",
+  "targets": [
+    "infrastructure"
+  ],
+  "action": "All hands on deck - do everything needed to recover the infrastructure needed to run your productive system and restore its availability",
+  "fix_cost": {
+    "min": 16,
+    "max": 20
+  }
+}

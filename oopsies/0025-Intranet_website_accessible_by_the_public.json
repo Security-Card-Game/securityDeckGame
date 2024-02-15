@@ -1,0 +1,13 @@
+{
+  "type": "oopsie",
+  "title": "Intranet website accessible by the public",
+  "description": "What a great intranet website this department had built, lots of useful information there including confidential business critical data. Unfortunately, they forgot to limit it to the internal network, so everyone out there can just go there and access it",
+  "targets": [
+    "data"
+  ],
+  "action": "Secure the intranet website and its information and handle the potential disclosure",
+  "fix_cost": {
+    "min": 4,
+    "max": 13
+  }
+}

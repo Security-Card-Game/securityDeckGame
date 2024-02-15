@@ -1,0 +1,14 @@
+{
+  "type": "oopsie",
+  "title": "An open door for remote code execution",
+  "description": "One of your service's endpoints passes the provided input directly into the command line - without validation or sanitization",
+  "targets": [
+    "backend",
+    "infrastructure"
+  ],
+  "action": "Search your system for indicators that this vulnerability was exploited - and make sure to fix this hole",
+  "fix_cost": {
+    "min": 4,
+    "max": 9
+  }
+}

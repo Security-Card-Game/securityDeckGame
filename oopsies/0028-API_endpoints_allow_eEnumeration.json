@@ -1,0 +1,14 @@
+{
+  "type": "oopsie",
+  "title": "API endpoints allow enumeration",
+  "description": "Your endpoints contain an id that's easily enumerable so other people's resources can be queried without hassle.",
+  "targets": [
+    "backend",
+    "data"
+  ],
+  "action": "Switch to using uuids instead",
+  "fix_cost": {
+    "min": 8,
+    "max": 18
+  }
+}

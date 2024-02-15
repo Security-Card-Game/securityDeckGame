@@ -1,7 +1,7 @@
 {
   "type": "oopsie",
   "title": "Blinded by alerts",
-  "description": "You have all the tools of the world in your pipeline. They complain constantly. You just ignore them and may miss a ciritical one.",
+  "description": "You have all the tools of the world in your pipeline. They complain constantly. You just ignore them and may miss a critical one.",
   "targets": [
     "CI",
     "backend",

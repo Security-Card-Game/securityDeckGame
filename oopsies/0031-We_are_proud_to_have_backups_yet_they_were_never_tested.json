@@ -1,0 +1,14 @@
+{
+  "type": "oopsie",
+  "title": "We are proud to have backups yet they were never tested",
+  "description": "You make regular backups, all good - or is it? No one ever tested restoring the system to one!",
+  "targets": [
+    "infrastructure",
+    "data"
+  ],
+  "action": "Test it out and fix whatever is needed to make your backups actually work",
+  "fix_cost": {
+    "min": 3,
+    "max": 14
+  }
+}

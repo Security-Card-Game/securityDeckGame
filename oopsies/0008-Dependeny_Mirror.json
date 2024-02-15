@@ -1,7 +1,7 @@
 {
   "type": "oopsie",
-  "title": "Dependeny Mirror",
-  "description": "You do not mirror external build dependencies. Engineers point out the risks of broken build caused by missing dependencies and also the security risks in accidentially use non-reviewed depnendecies",
+  "title": "Dependency Mirror",
+  "description": "You do not mirror external build dependencies. Engineers point out the risks of broken build caused by missing dependencies and also the security risks in accidentally use non-reviewed dependencies",
   "targets": [
     "CI",
     "supply chain"
