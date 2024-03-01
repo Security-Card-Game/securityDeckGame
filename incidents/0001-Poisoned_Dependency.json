@@ -6,5 +6,6 @@
     "CI",
     "supply chain"
   ],
-  "action": "Lose 30% revenue for the next 3 rounds."
+  "action": "Lose 30% revenue for the next 3 rounds.",
+  "duration": 3
 }

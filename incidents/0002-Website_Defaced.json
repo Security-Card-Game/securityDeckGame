@@ -6,5 +6,6 @@
     "frontend",
     "webserver"
   ],
-  "action": "Lose 25% revenue for the next 5 rounds."
+  "action": "Lose 25% revenue for the next 5 rounds.",
+  "duration": 3
 }
