@@ -2,15 +2,19 @@
   "type": "oopsie",
   "title": "Blinded by alerts",
   "description": "You have all the tools of the world in your pipeline. They complain constantly. You just ignore them and may miss a critical one.",
-  "targets": [
-    "CI",
-    "backend",
-    "frontend",
-    "database",
-    "supply chain"
-  ],
-  "action": "Make sure to use the right tools and make them reliable.",
-  "fix_cost": {
+  "effect": {
+    "attackSurface": [
+      "Make sure to use the right tools and make them reliable.",
+      [
+        "CI",
+        "backend",
+        "frontend",
+        "database",
+        "supply chain"
+      ]
+    ]
+  },
+  "fixCost": {
     "min": 4,
     "max": 20
   }

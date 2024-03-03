@@ -2,12 +2,16 @@
   "type": "oopsie",
   "title": "Legacy leftover and unused code - everywhere",
   "description": "Your code base is full of leftovers and unused code that never got cleaned up. Maintenance is really hard, changing anything is highly confusing and error-prone, onboarding a nightmare - and the attack surface is wide open",
-  "targets": [
-    "backend",
-    "frontend"
-  ],
-  "action": "Clean up to decrease the attack surface and also the cost of fixes in case urgent security improvements are required",
-  "fix_cost": {
+  "effect": {
+    "attackSurface": [
+      "Clean up to decrease the attack surface and also the cost of fixes in case urgent security improvements are required",
+      [
+        "backend",
+        "frontend"
+      ]
+    ]
+  },
+  "fixCost": {
     "min": 5,
     "max": 19
   }

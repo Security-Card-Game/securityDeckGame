@@ -2,12 +2,16 @@
   "type": "oopsie",
   "title": "Uncaught exceptions present their stack trace to the user",
   "description": "Error handling was postponed to later - not realizing that the whole raw internal error information and stack trace is reflected as is to the user, hence leaking sensitive internal information about the system",
-  "targets": [
-    "backend",
-    "database"
-  ],
-  "action": "Introduce proper error handling and educate people to test for unexpected behavior so they know what needs handling",
-  "fix_cost": {
+  "effect": {
+    "attackSurface": [
+      "Introduce proper error handling and educate people to test for unexpected behavior so they know what needs handling",
+      [
+        "backend",
+        "database"
+      ]
+    ]
+  },
+  "fixCost": {
     "min": 5,
     "max": 14
   }

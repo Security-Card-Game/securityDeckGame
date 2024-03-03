@@ -2,13 +2,17 @@
   "type": "oopsie",
   "title": "Default admin area left open without authorization",
   "description": "You installed your tool and forgot about the default admin area in their web app that came along with out - not requiring any authorization",
-  "targets": [
-    "tools",
-    "infrastructure",
-    "data"
-  ],
-  "action": "Check if anyone caused havoc on the system, configure the admin area to reasonable settings and make sure only authorized accounts can access it",
-  "fix_cost": {
+  "effect": {
+    "attackSurface": [
+      "Check if anyone caused havoc on the system, configure the admin area to reasonable settings and make sure only authorized accounts can access it",
+      [
+        "tools",
+        "infrastructure",
+        "data"
+      ]
+    ]
+  },
+  "fixCost": {
     "min": 2,
     "max": 6
   }

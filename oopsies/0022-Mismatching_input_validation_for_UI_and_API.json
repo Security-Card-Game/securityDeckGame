@@ -2,12 +2,16 @@
   "type": "oopsie",
   "title": "Mismatching input validation for UI and API",
   "description": "You added input validation for your user interface, congratulations! But wait, the API just accepts about everything!",
-  "targets": [
-    "backend",
-    "database"
-  ],
-  "action": "Add input validation to your API and make it consistent with the UI",
-  "fix_cost": {
+  "effect": {
+    "attackSurface": [
+      "Add input validation to your API and make it consistent with the UI",
+      [
+        "backend",
+        "database"
+      ]
+    ]
+  },
+  "fixCost": {
     "min": 2,
     "max": 5
   }

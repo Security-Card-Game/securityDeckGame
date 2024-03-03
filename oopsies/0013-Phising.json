@@ -2,11 +2,15 @@
   "type": "oopsie",
   "title": "Phising",
   "description": "You receive an email from the upper management ordering you to transfer funds to a special account for a very high profile project.",
-  "targets": [
-    "social"
-  ],
-  "action": "Train your people to not do this!",
-  "fix_cost": {
+  "effect": {
+    "attackSurface": [
+      "Train your people to not do this!",
+      [
+        "social"
+      ]
+    ]
+  },
+  "fixCost": {
     "min": 1,
     "max": 3
   }

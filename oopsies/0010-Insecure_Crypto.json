@@ -2,12 +2,16 @@
   "type": "oopsie",
   "title": "Insecure Crypto",
   "description": "Not invented here is the motto of your team. They did write their own crypto. It was not a wise decision.",
-  "targets": [
-    "backend",
-    "database"
-  ],
-  "action": "Refactor to use a open-source and battle tested dependency. Also make sure to not use outdated algorithms like MD5.",
-  "fix_cost": {
+  "effect": {
+    "attackSurface": [
+      "Refactor to use a open-source and battle tested dependency. Also make sure to not use outdated algorithms like MD5.",
+      [
+        "backend",
+        "database"
+      ]
+    ]
+  },
+  "fixCost": {
     "min": 1,
     "max": 5
   }
