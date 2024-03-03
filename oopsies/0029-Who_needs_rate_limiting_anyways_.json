@@ -2,12 +2,16 @@
   "type": "oopsie",
   "title": "Who needs rate limiting anyways?",
   "description": "Your API is freely available for anyone to bombard with requests to reduce availability, and allows endless tries to authenticate. Paradise for malicious actors.",
-  "targets": [
-    "backend",
-    "data"
-  ],
-  "action": "Introduce rate limiting for all your public endpoints and especially make sure to lock accounts in case of too many failed authentication requests",
-  "fix_cost": {
+  "effect": {
+    "attackSurface": [
+      "Introduce rate limiting for all your public endpoints and especially make sure to lock accounts in case of too many failed authentication requests",
+      [
+        "backend",
+        "data"
+      ]
+    ]
+  },
+  "fixCost": {
     "min": 5,
     "max": 11
   }

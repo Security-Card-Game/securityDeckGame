@@ -2,12 +2,16 @@
   "type": "oopsie",
   "title": "Auth tokens revealed in the URL",
   "description": "Oops! Did someone add the session token as a parameter to your GET request for everyone to be seen?",
-  "targets": [
-    "customer",
-    "backend"
-  ],
-  "action": "Leaked session tokens need to be invalidated, affected people informed. Then re-design your request and educate your people!",
-  "fix_cost": {
+  "effect": {
+    "attackSurface": [
+      "Leaked session tokens need to be invalidated, affected people informed. Then re-design your request and educate your people!",
+      [
+        "customer",
+        "backend"
+      ]
+    ]
+  },
+  "fixCost": {
     "min": 4,
     "max": 8
   }

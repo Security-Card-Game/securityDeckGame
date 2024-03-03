@@ -1,0 +1,17 @@
+{
+  "type": "attack",
+  "title": "Vulnerable Image",
+  "description": "One of your teams picked an OS image that contained a backdoor - and now people are mining bitcoins on your system.",
+  "effect": {
+    "incident": [
+      "Lose 30% revenue for the next 3 rounds.",
+      [
+        "CI",
+        "supply chain"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 3
+  }
+}

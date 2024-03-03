@@ -2,11 +2,15 @@
   "type": "oopsie",
   "title": "Photo Ops",
   "description": "Marketing is creating content to show off the diverse engineering team at the company. Nobody realized the pin codes for the offices and company doors were on the dashboard.",
-  "targets": [
-    "credentials"
-  ],
-  "action": "Reset all the codes.",
-  "fix_cost": {
+  "effect": {
+    "attackSurface": [
+      "Reset all the codes.",
+      [
+        "credentials"
+      ]
+    ]
+  },
+  "fixCost": {
     "min": 1,
     "max": 3
   }

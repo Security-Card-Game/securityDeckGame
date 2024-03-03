@@ -2,12 +2,16 @@
   "type": "oopsie",
   "title": "User rights in Local Storage\"",
   "description": "Your shiny webapp stores a matrix of user rights in the users browser. The user can edit this rights and can gain privileges.",
-  "targets": [
-    "webserver",
-    "frontend"
-  ],
-  "action": "Fix this, as this affects your data integrity and may allow privilege escalation.",
-  "fix_cost": {
+  "effect": {
+    "attackSurface": [
+      "Fix this, as this affects your data integrity and may allow privilege escalation.",
+      [
+        "webserver",
+        "frontend"
+      ]
+    ]
+  },
+  "fixCost": {
     "min": 3,
     "max": 12
   }

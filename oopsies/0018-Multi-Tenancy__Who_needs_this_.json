@@ -2,11 +2,15 @@
   "type": "oopsie",
   "title": "Multi-Tenancy? Who needs this?",
   "description": "Your team migrates data form one database to the other. They are doing this programmatically and use the same tenant for all the data.",
-  "targets": [
-    "data"
-  ],
-  "action": "Roll back if you can. Then do it again. Hope nobody has seen it.",
-  "fix_cost": {
+  "effect": {
+    "attackSurface": [
+      "Roll back if you can. Then do it again. Hope nobody has seen it.",
+      [
+        "data"
+      ]
+    ]
+  },
+  "fixCost": {
     "min": 5,
     "max": 10
   }

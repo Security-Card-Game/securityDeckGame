@@ -1,0 +1,17 @@
+{
+  "type": "attack",
+  "title": "Website Defaced",
+  "description": "Someone used your website to propagate hate speech.",
+  "effect": {
+    "incident": [
+      "Lose 25% revenue for the next 5 rounds.",
+      [
+        "frontend",
+        "webserver"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 3
+  }
+}

@@ -2,13 +2,17 @@
   "type": "oopsie",
   "title": "Information Leakage",
   "description": "Your logs contain personal information.",
-  "targets": [
-    "backend",
-    "cluster",
-    "logserver"
-  ],
-  "action": "Fix me",
-  "fix_cost": {
+  "effect": {
+    "attackSurface": [
+      "Fix me",
+      [
+        "backend",
+        "cluster",
+        "logserver"
+      ]
+    ]
+  },
+  "fixCost": {
     "min": 1,
     "max": 3
   }

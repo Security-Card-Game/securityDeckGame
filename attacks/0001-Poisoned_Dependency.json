@@ -1,0 +1,17 @@
+{
+  "type": "attack",
+  "title": "Poisoned Dependency",
+  "description": "You always pull build dependencies from a public mirror - someone replaces the dependcy with one with a backdoor and breaks in.",
+  "effect": {
+    "incident": [
+      "Lose 30% revenue for the next 3 rounds.",
+      [
+        "CI",
+        "supply chain"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 3
+  }
+}

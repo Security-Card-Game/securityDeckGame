@@ -2,12 +2,16 @@
   "type": "oopsie",
   "title": "User interface does not set a maximum limit for an input field",
   "description": "No maximum limit was provided on the user interface - any high value gets accepted and passed to the backend",
-  "targets": [
-    "backend",
-    "database"
-  ],
-  "action": "Make sure that maximum limits are defined on backend side, and make the user interface consistent",
-  "fix_cost": {
+  "effect": {
+    "attackSurface": [
+      "Make sure that maximum limits are defined on backend side, and make the user interface consistent",
+      [
+        "backend",
+        "database"
+      ]
+    ]
+  },
+  "fixCost": {
     "min": 2,
     "max": 4
   }
