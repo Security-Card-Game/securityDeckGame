@@ -3,6 +3,9 @@
   "title": "Security Training",
   "description": "You've just received a really valuable training! Your awareness increased, you know what needs doing and how to fix issues - you still need to get resources to do so.",
   "effect": {
-    "other": "Decrease the next resource costs for a fix by 2."
+    "onNextFix": [
+      "Decrease the next resource costs for a fix by 2.",
+      { "decrease": 2 }
+      ]
   }
 }
