@@ -3,6 +3,9 @@
   "title": "New Hire",
   "description": "Your company hired a new person who now needs to get onboarded.",
   "effect": {
-    "other": "Increase the next resource costs for a fix by 1."
+    "onNextFix": [
+      "Increase the next resource costs for a fix by 1.",
+      {"increase": 1 }
+    ]
   }
 }
