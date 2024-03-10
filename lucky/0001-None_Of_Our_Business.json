@@ -3,6 +3,9 @@
   "title": "None Of Our Business",
   "description": "The vulnerability reported simply does not apply to you, the dependency version is not in use, the configuration settings are fine, the related piece had been removed already. Lucky you!",
   "effect": {
-    "other": "Reduce the resource costs for a fix by 5. Then discard this card."
+    "onUsingForFix": [
+      "Reduce the resource costs for a fix by 5. Then discard this card.",
+      { "decrease": 5 }
+      ]
   }
 }
