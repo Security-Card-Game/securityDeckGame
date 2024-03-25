@@ -1,12 +1,12 @@
 {
   "type": "oopsie",
   "title": "Critical information is shared via link",
-  "description": "You though obscuring critical information by a long, complicated link? It's still publicly accessible, so anyone who comes across it can access it",
+  "description": "You thought to obscure critical information by a long, complicated link? It's still publicly accessible, so anyone who comes across it can access it",
   "effect": {
     "attackSurface": [
       "Move the information to a different place, protect it by authorizing only dedicated people and remove the option to share by link only",
       [
-        "data"
+        "network"
       ]
     ]
   },

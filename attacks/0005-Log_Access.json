@@ -1,0 +1,17 @@
+{
+  "type": "attack",
+  "title": "Log Access",
+  "description": "Uh-oh, someone managed to access your logs - you better have nothing valuable in them, do you?",
+  "effect": {
+    "incident": [
+      "Lose 20% revenue for the next 5 rounds.",
+      [
+        "backend",
+        "infrastructure"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 5
+  }
+}

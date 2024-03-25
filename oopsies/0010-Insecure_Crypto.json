@@ -6,8 +6,7 @@
     "attackSurface": [
       "Refactor to use a open-source and battle tested dependency. Also make sure to not use outdated algorithms like MD5.",
       [
-        "backend",
-        "database"
+        "backend"
       ]
     ]
   },

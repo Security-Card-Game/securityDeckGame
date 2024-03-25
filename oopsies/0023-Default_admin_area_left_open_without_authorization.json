@@ -6,9 +6,7 @@
     "attackSurface": [
       "Check if anyone caused havoc on the system, configure the admin area to reasonable settings and make sure only authorized accounts can access it",
       [
-        "tools",
-        "infrastructure",
-        "data"
+        "infrastructure"
       ]
     ]
   },

@@ -6,9 +6,8 @@
     "attackSurface": [
       "Figure out what is going on and stop it.",
       [
-        "cluster",
-        "backend",
-        "webserver"
+        "network",
+        "infrastructure"
       ]
     ]
   },

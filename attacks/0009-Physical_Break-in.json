@@ -1,0 +1,16 @@
+{
+  "type": "attack",
+  "title": "Physical Break-in",
+  "description": "Did someone let them into your building? Did they gain access themselves? Whatever happened, several of your devices got stolen!",
+  "effect": {
+    "incident": [
+      "Lose 20% revenue for the next 3 rounds.",
+      [
+        "hardware"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 3
+  }
+}

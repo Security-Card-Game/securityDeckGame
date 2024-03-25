@@ -1,11 +1,12 @@
 # Game preparation
 
 * Compile a deck of
-* * X Incidents
-* * Y Events
-* * Z Oopsies
-and make it a total of N cards without the incidents.
-Split the cards into X + 1 piles. Add one incident to every pile but the first. Put the piles together. Do not mix. 
+  * Attacks
+  * Events
+  * Oopsies
+  * Lucky cards
+and make it a total of N cards without the attacks.
+Split the cards into X + 1 piles. Add one attack to every pile but the first. Put the piles together. Do not mix. 
 
 
 # Game start
@@ -22,12 +23,12 @@ Split the cards into X + 1 piles. Add one incident to every pile but the first. 
 
 * Move N resources to the company resource pile
 * Distribute the resources if there are fixed budgets or discuss how to distribute them
-* Draw a card: Events, Oopsies and Incidents are revealed immediately for everyone to see; do not show any Lucky cards you might have drawn and keep them to yourself
-* Decide how to respond to the card (e.g. fix an Oopsie, resolve an Incident)
+* Draw a card: Events, Oopsies and Attacks are revealed immediately for everyone to see; do not show any Lucky cards you might have drawn and keep them to yourself
+* Decide how to respond to the card (e.g. fix an Oopsie, counter an Attack)
 * The round ends
 * Lucky cards may be played at any time
 
 # Game end
 
-You made it to the game without being put out of business by an incident? Now it's time for a shareholder meeting. Note how many resources your company can
+You made it to the game without being put out of business by an attack? Now it's time for a shareholder meeting. Note how many resources your company can
 acquire monthly and how many resources are left in the company pile. Try to maximize both values.

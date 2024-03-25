@@ -6,8 +6,7 @@
     "attackSurface": [
       "Configure your buckets correctly.",
       [
-        "cloud",
-        "data"
+        "infrastructure"
       ]
     ]
   },

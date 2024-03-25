@@ -1,0 +1,16 @@
+{
+  "type": "attack",
+  "title": "Third Party Attack",
+  "description": "Your API client provider is under attack! Let's hope no one used the cloud backup feature and leaked any secrets...",
+  "effect": {
+    "incident": [
+      "Lose 10% revenue for the next 5 rounds.",
+      [
+        "backend"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 5
+  }
+}

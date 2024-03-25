@@ -1,13 +1,13 @@
 {
   "type": "attack",
   "title": "DDOS Attack",
-  "description": "Your services are not responding anymore - seems someone is targeting them to keep them down!",
+  "description": "Your services are suddenly under heavy load - seems someone is targeting them to get them down!",
   "effect": {
     "incident": [
       "Lose 50% revenue for the next 3 rounds.",
       [
         "network",
-        "webserver"
+        "infrastructure"
       ]
     ]
   },

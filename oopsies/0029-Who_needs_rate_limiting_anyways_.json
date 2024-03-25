@@ -7,7 +7,7 @@
       "Introduce rate limiting for all your public endpoints and especially make sure to lock accounts in case of too many failed authentication requests",
       [
         "backend",
-        "data"
+        "network"
       ]
     ]
   },

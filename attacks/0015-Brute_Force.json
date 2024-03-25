@@ -1,0 +1,17 @@
+{
+  "type": "attack",
+  "title": "Brute Force",
+  "description": "They try everything to get in - even if they have to use brute force!",
+  "effect": {
+    "incident": [
+      "Lose 20% revenue for the next 5 rounds.",
+      [
+        "backend",
+        "network"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 5
+  }
+}

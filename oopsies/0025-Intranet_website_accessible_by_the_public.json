@@ -6,7 +6,7 @@
     "attackSurface": [
       "Secure the intranet website and its information and handle the potential disclosure",
       [
-        "data"
+        "network"
       ]
     ]
   },

@@ -1,0 +1,16 @@
+{
+  "type": "attack",
+  "title": "Remote Code Execution",
+  "description": "That file upload API endpoint you have there? Seems someone tries to upload a reverse shell! Will they succeed?",
+  "effect": {
+    "incident": [
+      "Lose 50% revenue for the next 2 rounds.",
+      [
+        "backend"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 2
+  }
+}

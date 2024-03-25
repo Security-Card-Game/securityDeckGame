@@ -1,0 +1,17 @@
+{
+  "type": "attack",
+  "title": "Injection Attack",
+  "description": "Injections? Yes, people are still out there and trying them, hoping to get lucky - do they?",
+  "effect": {
+    "incident": [
+      "Lose 20% revenue for the next 4 rounds.",
+      [
+        "backend",
+        "database"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 4
+  }
+}

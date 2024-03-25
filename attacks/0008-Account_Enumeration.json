@@ -1,0 +1,16 @@
+{
+  "type": "attack",
+  "title": "Account Enumeration",
+  "description": "You spotted that someone tries to call your backend APIs using enumeration to find existing accounts - you better have mitigations against that!",
+  "effect": {
+    "incident": [
+      "Lose 20% revenue for the next 3 rounds.",
+      [
+        "backend"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 3
+  }
+}

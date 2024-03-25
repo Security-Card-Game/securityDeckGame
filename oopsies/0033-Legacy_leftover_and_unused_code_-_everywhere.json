@@ -6,6 +6,7 @@
     "attackSurface": [
       "Clean up to decrease the attack surface and also the cost of fixes in case urgent security improvements are required",
       [
+        "mobile",
         "backend",
         "frontend"
       ]

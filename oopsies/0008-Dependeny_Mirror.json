@@ -6,7 +6,6 @@
     "attackSurface": [
       "Implement a dependency mirror",
       [
-        "CI",
         "supply chain"
       ]
     ]
