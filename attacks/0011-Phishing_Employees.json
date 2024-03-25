@@ -1,0 +1,16 @@
+{
+  "type": "attack",
+  "title": "Phishing Employees",
+  "description": "Your whole company receives lots of ominous emails - your employees better be trained to recognize them as the phishing attacks they are!",
+  "effect": {
+    "incident": [
+      "Lose 50% revenue for the next round.",
+      [
+        "social"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 1
+  }
+}

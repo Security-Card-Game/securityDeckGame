@@ -1,0 +1,17 @@
+{
+  "type": "attack",
+  "title": "Data Corruption",
+  "description": "You detected strange behavior indicating that someone seems to try corrupt your data, delete it, get your database down, or who knows what!",
+  "effect": {
+    "incident": [
+      "Lose 30% revenue for the next 3 rounds.",
+      [
+        "backend",
+        "database"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 3
+  }
+}

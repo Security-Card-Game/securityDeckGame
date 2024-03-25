@@ -1,0 +1,16 @@
+{
+  "type": "attack",
+  "title": "Infrastructure Probing",
+  "description": "One of your employees spot unusual behavior on your infrastructure - seems someone is probing it for accessible pieces! Better have no door left open for them.",
+  "effect": {
+    "incident": [
+      "Lose 20% revenue for the next 3 rounds.",
+      [
+        "infrastructure"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 3
+  }
+}

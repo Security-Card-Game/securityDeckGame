@@ -6,8 +6,7 @@
     "attackSurface": [
       "Test it out and fix whatever is needed to make your backups actually work",
       [
-        "infrastructure",
-        "data"
+        "infrastructure"
       ]
     ]
   },

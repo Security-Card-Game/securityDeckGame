@@ -6,8 +6,7 @@
     "attackSurface": [
       "Switch to using uuids instead",
       [
-        "backend",
-        "data"
+        "backend"
       ]
     ]
   },

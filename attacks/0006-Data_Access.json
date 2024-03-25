@@ -1,0 +1,16 @@
+{
+  "type": "attack",
+  "title": "Data Access",
+  "description": "Oh my, you just found out that there are suspicious actions happening on your database - someone seems to have gained access to your data!",
+  "effect": {
+    "incident": [
+      "Lose 50% revenue for the next 2 rounds.",
+      [
+        "database"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 2
+  }
+}

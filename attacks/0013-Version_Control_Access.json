@@ -1,0 +1,19 @@
+{
+  "type": "attack",
+  "title": "Version Control Access",
+  "description": "Oh no, there's an intruder on your repositories with read access! What valuable information will they find?",
+  "effect": {
+    "incident": [
+      "Lose 20% revenue for the next 5 rounds.",
+      [
+        "mobile",
+        "backend",
+        "frontend",
+        "infrastructure"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 5
+  }
+}

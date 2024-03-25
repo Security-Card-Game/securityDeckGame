@@ -6,7 +6,6 @@
     "attackSurface": [
       "Leaked session tokens need to be invalidated, affected people informed. Then re-design your request and educate your people!",
       [
-        "customer",
         "backend"
       ]
     ]

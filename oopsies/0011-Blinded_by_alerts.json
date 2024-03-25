@@ -6,10 +6,8 @@
     "attackSurface": [
       "Make sure to use the right tools and make them reliable.",
       [
-        "CI",
         "backend",
         "frontend",
-        "database",
         "supply chain"
       ]
     ]

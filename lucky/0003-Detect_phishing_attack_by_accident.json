@@ -1,8 +1,8 @@
 {
   "type": "lucky",
   "title": "Detect phishing attack by accident",
-  "description": "By accident you check the mail origin and are surprised about this well crafted phising mail.",
+  "description": "By accident you check the mail origin and are surprised about this well crafted phishing mail.",
   "effect": {
-    "other": "Deflects phising attack."
+    "other": "Deflects phishing attack."
   }
 }

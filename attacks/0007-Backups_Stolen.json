@@ -1,0 +1,16 @@
+{
+  "type": "attack",
+  "title": "Backups Stolen",
+  "description": "Backups of your data re-appear in the public - seems someone stole them!",
+  "effect": {
+    "incident": [
+      "Lose 30% revenue for the next 4 rounds.",
+      [
+        "backup"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 4
+  }
+}

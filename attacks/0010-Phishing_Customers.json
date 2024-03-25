@@ -1,0 +1,16 @@
+{
+  "type": "attack",
+  "title": "Phishing Customers",
+  "description": "Someone figures out the deep links or tasks your Android app uses - and offers a seemingly harmless app hijacking them to phish for your customers' data.",
+  "effect": {
+    "incident": [
+      "Lose 10% revenue for the next 5 round.",
+      [
+        "mobile"
+      ]
+    ]
+  },
+  "duration": {
+    "rounds": 5
+  }
+}
