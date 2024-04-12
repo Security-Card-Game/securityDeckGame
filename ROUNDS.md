@@ -8,6 +8,17 @@
 and make it a total of N cards without the attacks.
 Split the cards into X + 1 piles. Add one attack to every pile but the first. Put the piles together. Do not mix. 
 
+# The preliminary rules
+
+1. Collect your resources for the round
+2. Draw a card openly
+  * Event, Oopsies and Lucky cards are kept on the board
+  * Attack cards are evaluated, if there is a matching target the attack strikes. However, there may be cards allowing you to stop the attack immediately.
+3. Close Oopsies
+  * Each Oopsie has a range of fix cost, you need to randomly determine a number in this range
+  * You must take into account modifying cards which are open
+  * You may use other modifying cards if you want to
+  * If you have not enough resources to close the Oopsie, your resources will be set to 0 and the Oopsie will be kept open
 
 # Game start
 
