@@ -1,6 +1,6 @@
 {
   "type": "oopsie",
-  "title": "Phising",
+  "title": "Phishing",
   "description": "You receive an email from the upper management ordering you to transfer funds to a special account for a very high profile project.",
   "effect": {
     "attackSurface": [
