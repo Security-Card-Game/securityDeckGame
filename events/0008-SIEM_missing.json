@@ -1,0 +1,8 @@
+{
+  "type": "event",
+  "title": "SIEM missing",
+  "description": "Your organization does not have a Security Infomration and Event Management System. You do not know if there is somehting going on. No one listened to the person wanting to install one. Now you pay the price.",
+  "effect": {
+    "other": "All cards ending attacks immediatley or earlier loose their function. Remove them from the board."
+  }
+}
