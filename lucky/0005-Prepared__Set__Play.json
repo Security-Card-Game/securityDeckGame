@@ -1,0 +1,8 @@
+{
+  "type": "lucky",
+  "title": "Prepared, Set, Play",
+  "description": "Your security team has multiple playbooks ready. They will help you dealing with attacks. Your operation will be restored much quicker. Close one of the ongoing attacks.",
+  "effect": {
+    "other": "If an attack hits you, you may close it after the first hit and do not have to wait for it to be over."
+  }
+}
