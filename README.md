@@ -1,5 +1,5 @@
 # Security Deck Card Game
-This card game aims to help people learn about security while playing out scenarios that could happen in real life - including your company! Practice incident responses, make trade-off decisions, keep the company alive or pursue other goals you might have. ;) Check out the [RULES.md](RULES) to learn about game mechanics.
+This card game aims to help people learn about security while playing out scenarios that could happen in real life - including your company! Practice incident responses, make trade-off decisions, keep the company alive or pursue other goals you might have. ;) Check out the [RULES](RULES.md) to learn about game mechanics.
 
 # Resources
 
