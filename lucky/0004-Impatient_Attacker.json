@@ -3,6 +3,6 @@
   "title": "Impatient Attacker",
   "description": "This attacker only tries a few attempts without grit or patience, so although you would have a vulnerable target they give up before they can exploit it!",
   "effect": {
-    "other": "Deflects any next attack."
+    "other": "Deflects any attack of your choice immediately - you got lucky you didn't get hit."
   }
 }
