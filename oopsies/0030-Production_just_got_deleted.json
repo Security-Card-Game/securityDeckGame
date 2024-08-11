@@ -1,7 +1,7 @@
 {
   "type": "oopsie",
   "title": "Production just got deleted",
-  "description": "Oh no! You deleted your own productive infrastructure by mistake and you don't have a backup.",
+  "description": "Oh no! You deleted your own productive infrastructure by mistake, everything went down. Good thing you have your infrastructure as code and restorable backups as well, right? Right?! Whatever the case, you can't do anything else before you have fixed this.",
   "effect": {
     "attackSurface": [
       "All hands on deck - do everything needed to recover the infrastructure needed to run your productive system and restore its availability",
@@ -11,7 +11,7 @@
     ]
   },
   "fixCost": {
-    "min": 16,
-    "max": 20
+    "min": 20,
+    "max": 40
   }
 }
