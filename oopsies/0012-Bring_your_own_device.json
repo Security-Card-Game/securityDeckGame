@@ -1,10 +1,10 @@
 {
   "type": "oopsie",
-  "title": "Bring you own device",
-  "description": "Your company allow you to bring your own device. However, they do not implement any mobile device management. Someone, looses their unlocked device...",
+  "title": "Bring your own device",
+  "description": "Your company allows you to bring your own device. However, they do not implement any mobile device management. Now someone loses their unlocked device...",
   "effect": {
     "attackSurface": [
-      "Assess the damage, rotate passwords, publish security incident, think hard about BYOD and or rolling out an MDM solution.",
+      "Assess the damage, rotate passwords, publish the security incident, think hard about BYOD and/or rolling out an MDM solution.",
       [
         "hardware"
       ]
