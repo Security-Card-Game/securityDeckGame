@@ -20,7 +20,7 @@ Decide on how many cards of each type make up the card deck. These figure can he
 
 ### Define Key Variables
 There are two key variables you need to decide on before starting.
-* Resource gain: How many resources does the company gain with each round? We suggest to start with e.g. 10 resources. Be aware that this is only your starting point, as this variable may change during the course of the game. 
+* Resource gain: How many resources does the company gain with each round? We suggest to start with e.g. 10 resources as it makes percentage calculation easier. Be aware that this is only your starting point, as this variable may change during the course of the game. 
 * Multiplier: This influences how big numbers feel - it's all about perception! A multiplier of 1 just keeps the costs of fixing oopsies at their original value. A multiplier of 5 can feel quite different when playing the game. Just try it out and see for yourself. 
 
 ### Start Playing
@@ -30,33 +30,34 @@ Each round consists of drawing a new card from the deck, and deciding what actio
 Based on the type of card you drew, different things can happen.
 * Event: The event cards tell you what happens, it differs per card.
 * Lucky card: The lucky cards tell you what happens, it differs per card.
-* Oopsie: You just became aware of a flaw in your system. If there is no attack going on right now (i.e. lying open on the table) that targets the attack surface your oopsie just opened, nothing happens. If there is, you just got attacked - read on to learn more about this case.
+* Oopsie: You just became aware of a flaw in your system. If there is no attack going on right now (i.e. lying open on the table) that targets the attack surface your oopsie has opened up, nothing happens. If there is, you just got attacked - read on to learn more about this case.
 * Attack: Uh oh, someone runs an attack and tries to exploit vulnerabilities in your system! Check the attack card for what it targets.
   * If there are no oopsies offering the same attack surface, then you just got lucky! So far nothing bad happened.
-  * If there are oopsies offering the same attack surface, and there's no lucky card on the table you could use to counteract it - then well, you are hit by the attack. Follow the incident instructions on the attack card, e.g. you might have reduced resources for the current and following rounds. Now you have to decide whether to fix the oopsie so it doesn't cost you again, or continue loosing resources for the length of the attack. Some attacks only happen once for the current round, others can go on for 5 rounds - the cards will let you know. 
+  * If there are oopsies offering the same attack surface, and there's no lucky card on the table you could use to counteract it - then well, you are hit by the attack. Follow the incident instructions on the attack card, e.g. you might have reduced resources for the current and following rounds (you currently have to adjust them manually). Now you have to decide whether to fix the oopsie so it doesn't cost you again, or continue loosing resources for the length of the attack. Some attacks only occur once for the current round, others can go on for multiple rounds - the cards will let you know. 
 
 #### Decide What to Do
 Given the new situation on the table, you now have to decide what to do next to respond to the current situation on the table, whatever it might look like.
 
 Some cards can be actively used, some have an effect that is applied automatically. For example, some lucky cards can be used to dodge attacks even though you have a related oopsie on the table - use them wisely. Others, like onboarding a new employee, will automatically take effect.
 
-You can (and should!) decide on fixing open oopsies by closing the respective cards. You can only fix one per round, though, so choose wisely. Fixes will cost you, and you won't know the exact resources needed until you give it a try - the dices will decide which value between the stated boundaries it will be. If you don't have sufficient resources anymore, you loose all your resources and yet the oopsie remains open. It's still not fixed, after all!
+You can (and should!) decide on fixing open oopsies by closing the respective cards. You can only fix one per round, though, so choose wisely. Fixes will cost you, and you won't know the exact resources needed until you give it a try - the dices will decide which value between the stated boundaries it will be. If you don't have sufficient resources anymore, you lose all your resources and yet the oopsie remains open. It's still not fixed, after all!
 
 ### Continue Playing until the End
 The game ends for you in the following cases:
-* No resources anymore, yet still cards left? Sadly, fortune wasn't on your side this time - you lost. 
-* You still have resources, yet the dreaded shareholder meeting came, and you have less resources than required? Sadly, they shut down your business - you lost. 
-* You still have resources, you survived all shareholder meetings, and there are no cards left? Congratulations, you've survived this game! You won.
+* No resources anymore, yet still cards left? Sadly, fortune wasn't on your side this time - you lost.
+* You still have resources and there are no cards left? Congratulations, you've survived this game! You won.
+
+If you've won, how well did you perform, though? Check how many oopsies you have still left open and how many resources you have left!
 
 ## The Game Engine
 Here's how the game engine currently works (or doesn't yet).
 * Duplicates are allowed, so the same card might be drawn more than once.
 * Cards will be drawn randomly from the deck.
 * Resources will automatically increase with each card drawn, by the current resources gain defined.
-* The multiplier is used nearly everywhere; there are still a few cases it's not, and we need to correct this.
-* Attack effects need to be applied manually as of now.
+* The multiplier is used everywhere; it does not change mechanics, only perception of the game play.
+* Attack effects need to be applied manually as of now, e.g. by actively reducing the resources you gain in the next rounds as long as the attack still hits a target, and then increasing the resource gain again once the attack is over.
 * The duration of an attack is applied automatically, once the attack is over, the card is removed from the table.
 * Effects of fixing costs are automatically applied.
-* Effects of cards you have to use actively (showing a use button) are only automatically applied if they are active (there's still a bug for us to fix).
+* Effects of cards you have to use actively (showing a use button) are only automatically applied if they are active.
 * When closing i.e. fixing an oopsie, the engine rolls the dice how much it costs you. The possible cost value range (inclusive) is provided on each card. If there aren't sufficient resources available, resources are set to 0 and the oopsie remains open.
-* When no cards are available anymore, the game ends automatically. There's still a bug that the final resource "score" vanishes once you drew the last card.
+* When no cards are available anymore, the game ends automatically.
