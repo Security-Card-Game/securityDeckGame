@@ -1,0 +1,19 @@
+{
+  "type": "attack",
+  "title": "Ransomware",
+  "description": "Someone got into your system and encrypted all the files. They hold you at ransom. Hopefully you have backups...",
+  "effect": {
+    "incident": [
+      "Pay the ransom or loose the game.",
+      [
+        "backup"
+      ],
+      {
+        "fixed": 10
+      }
+    ]
+  },
+  "duration": {
+    "rounds": 1
+  }
+}
