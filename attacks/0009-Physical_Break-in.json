@@ -7,7 +7,10 @@
       "Lose 20% revenue for the next 3 rounds.",
       [
         "hardware"
-      ]
+      ],
+      {
+        "partOfRevenue": 20
+      }
     ]
   },
   "duration": {

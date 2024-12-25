@@ -10,7 +10,10 @@
         "backend",
         "frontend",
         "infrastructure"
-      ]
+      ],
+      {
+        "partOfRevenue": 20
+      }
     ]
   },
   "duration": {

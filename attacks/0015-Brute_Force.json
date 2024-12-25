@@ -8,7 +8,10 @@
       [
         "backend",
         "network"
-      ]
+      ],
+      {
+        "partOfRevenue": 20
+      }
     ]
   },
   "duration": {

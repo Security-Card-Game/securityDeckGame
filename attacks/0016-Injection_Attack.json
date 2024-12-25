@@ -8,7 +8,10 @@
       [
         "backend",
         "database"
-      ]
+      ],
+      {
+        "partOfRevenue": 20
+      }
     ]
   },
   "duration": {

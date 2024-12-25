@@ -7,7 +7,10 @@
       "Lose 50% revenue for the next round.",
       [
         "social"
-      ]
+      ],
+      {
+        "partOfRevenue": 50
+      }
     ]
   },
   "duration": {

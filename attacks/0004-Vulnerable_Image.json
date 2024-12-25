@@ -7,7 +7,10 @@
       "Lose 30% revenue for the next 3 rounds.",
       [
         "supply chain"
-      ]
+      ],
+      {
+        "partOfRevenue": 30
+      }
     ]
   },
   "duration": {

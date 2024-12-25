@@ -7,7 +7,10 @@
       "Lose 30% revenue for the next 4 rounds.",
       [
         "backup"
-      ]
+      ],
+      {
+        "partOfRevenue": 30
+      }
     ]
   },
   "duration": {

@@ -8,7 +8,10 @@
       [
         "network",
         "infrastructure"
-      ]
+      ],
+      {
+        "partOfRevenue": 50
+      }
     ]
   },
   "duration": {
