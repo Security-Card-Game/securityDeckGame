@@ -1,0 +1,8 @@
+{
+  "type": "event",
+  "title": "Resource Change",
+  "description": "Thanks to your reputation, your resources suddenly changed. Good news if your reputation is 60 or higher! Not so good news if you're below that threshold.",
+  "effect": {
+    "other": "Reputation >= 50? Get a bonus of 20 times the multiplier of resources. Otherwise, lose the same amount of resources."
+  }
+}

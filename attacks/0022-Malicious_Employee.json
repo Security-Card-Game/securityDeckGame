@@ -1,0 +1,20 @@
+{
+  "type": "attack",
+  "title": "Malicious Employee",
+  "description": "One of your employees goes rogue. They create a backdoor and sell it on the dark web.",
+  "effect": {
+    "incident": [
+      "Lose 10% revenue for the next 10 rounds.",
+      [
+        "backend",
+        "infrastructure"
+      ],
+      {
+        "partOfRevenue": 10
+      }
+    ]
+  },
+  "duration": {
+    "rounds": 10
+  }
+}

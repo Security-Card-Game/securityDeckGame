@@ -1,0 +1,8 @@
+{
+  "type": "lucky",
+  "title": "Take your chance",
+  "description": "You have the chance to hire an external security consultant. They will cost 2 rounds of resources you gain. Flip a coin to decide your fate. When it is tails, you just spent money on nothing. When it is head, the consultancy really helped you secure your systems.",
+  "effect": {
+    "other": "Close three oopsies."
+  }
+}

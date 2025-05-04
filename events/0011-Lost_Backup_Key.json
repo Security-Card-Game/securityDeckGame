@@ -1,0 +1,8 @@
+{
+  "type": "event",
+  "title": "Lost Backup Key",
+  "description": "Oh no, we somehow lost the key to the encrypted backup. Exactly when all infrastructure is down. What a bad day.",
+  "effect": {
+    "other": "Lose all resources."
+  }
+}

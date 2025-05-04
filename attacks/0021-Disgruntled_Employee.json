@@ -1,0 +1,19 @@
+{
+  "type": "attack",
+  "title": "Disgruntled Employee",
+  "description": "One of your employees goes rogue. They copy customer data and provide it to your competitors.",
+  "effect": {
+    "incident": [
+      "Lose 10% revenue for the next 10 rounds.",
+      [
+        "database"
+      ],
+      {
+        "partOfRevenue": 10
+      }
+    ]
+  },
+  "duration": {
+    "rounds": 10
+  }
+}

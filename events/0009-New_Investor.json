@@ -1,0 +1,8 @@
+{
+  "type": "event",
+  "title": "New Investor",
+  "description": "You've found a new investor! Such a sudden unexpected resources gain, let's better invest it well.",
+  "effect": {
+    "other": "Gain 50 times the multiplier of resources."
+  }
+}
