@@ -4,7 +4,7 @@
   "description": "Folks out there are scanning your network - you better haven't left anything to public access that shouldn't be so easily discoverable!",
   "effect": {
     "incident": [
-      "Lose 20% revenue for the next 3 rounds.",
+      "Lose 20% revenue for the next 20 rounds.",
       [
         "network"
       ],
@@ -14,6 +14,6 @@
     ]
   },
   "duration": {
-    "rounds": 3
+    "rounds": 20
   }
 }
