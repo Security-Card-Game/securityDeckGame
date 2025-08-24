@@ -8,7 +8,7 @@ This card game aims to help people learn about security while playing out scenar
 * [A simple UI and CLI for playing and creating card](https://github.com/Security-Card-Game/seccardgamecli)
 
 # Contributing
-This idea sounds good to you, and you'd like to chime in? You're welcome to support us by joining as contributor, providing feedback, become a playtester and more! Feel free to reach out to us directly.
+This idea sounds good to you, and you'd like to chime in? You're welcome to support us by joining as contributor, providing feedback, become a playtester and more! For details on how to contribute, see our [contributing guideline](CONTRIBUTING.md).
 
 # License
 
