@@ -3,7 +3,7 @@ The rules evolve as we go. You can either play the game based on this set of rul
 
 ## Disclaimer
 * As of now, the rules don't make use of additional mechanisms like traits or roles. They will likely be added in the future.
-* The current game goal is only to survive as a company by ending up with sufficient resources left when all cards had been played. Alternative goals might be added in future versions.
+* The current game goal is only to survive as a company by ending up with sufficient resources left when all cards had been played. Alternative goals might be added in future versions (see also [Scenarios](#scenarios)).
 * It's still unclear how to resolve duplicate oopsies; you can either close them together as the same case (which the game engine currently does not support), or treat them as similar oopsies yet for different parts of your system. Alternatively, we might consider not allowing duplicates in the future.
 
 ## Players
@@ -48,6 +48,14 @@ The game ends for you in the following cases:
 * You still have resources and there are no cards left? Congratulations, you've survived this game! You won.
 
 If you've won, how well did you perform, though? Check how many oopsies you have still left open and how many resources you have left!
+
+## Experimental Features
+
+### Reputation 
+You can set an initial reputation value when starting the game. Decide ahead of time what actions cost you reputation (e.g. an attack hits you due to a leftover oopsie), and what makes you gain reputation. Taking reputation into account as additional factor can result in interesting dynamics of game play. Right now, reputation is not yet considered by the game engine itself, yet it's available as custom setting in the UI, so feel free to test it out.  
+
+### Scenarios
+We are experimenting with game scenarios to provide you different presets as starting points as well as respective goals depending on which scenario you chose. Initial scenario ideas can be found in the [SCENARIOS.md](./scenarios/SCENARIOS.md). They are not yet included in the game itself, yet feel free to try them out and see what difference they make in your decision-making throughout the game. 
 
 ## The Game Engine
 Here's how the game engine currently works (or doesn't yet).
