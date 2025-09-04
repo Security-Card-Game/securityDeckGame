@@ -4,14 +4,14 @@
   "description": "Not invented here is the motto of your team. They did write their own crypto. It was not a wise decision.",
   "effect": {
     "attackSurface": [
-      "Refactor to use a open-source and battle tested dependency. Also make sure to not use outdated algorithms like MD5.",
+      "Refactor to use an open-source and battle tested dependency. Also make sure to not use outdated algorithms like MD5.",
       [
         "backend"
       ]
     ]
   },
   "fixCost": {
-    "min": 1,
-    "max": 5
+    "min": 5,
+    "max": 30
   }
 }
