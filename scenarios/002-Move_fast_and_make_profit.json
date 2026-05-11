@@ -1,0 +1,14 @@
+{
+  "title": "Move fast and make profit",
+  "description": "Who cares about stability! We need to be faster than our competitors or we're out of the market. If things break or go wrong on that way, so be it. Our goal is to make profit fast!",
+  "preset": {
+    "resources": 800,
+    "reputation": 40,
+    "resourceGain": 20,
+    "multiplier": 5
+  },
+  "goal": {
+    "minimumResources": 1300,
+    "minimumReputation": 20
+  }
+}

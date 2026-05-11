@@ -1,0 +1,14 @@
+{
+  "title": "Established, well-loved brand",
+  "description": "You've been on the market for a whole while. People really love your product over your competitors' offers, and your whole company is built on that. Keep your reputation up no matter the costs!",
+  "preset": {
+    "resources": 1000,
+    "reputation": 90,
+    "resourceGain": 50,
+    "multiplier": 10
+  },
+  "goal": {
+    "minimumResources": 100,
+    "minimumReputation": 85
+  }
+}

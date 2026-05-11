@@ -1,0 +1,14 @@
+{
+  "title": "Survive as brand-new startup",
+  "description": "You've literally just founded your startup and grew to 5 people. There's no money to invest, you first need to earn it. No one knows you yet! Hence, your only goal for now is to keep running.",
+  "preset": {
+    "resources": 0,
+    "reputation": 0,
+    "resourceGain": 5,
+    "multiplier": 1
+  },
+  "goal": {
+    "minimumResources": 1,
+    "minimumReputation": 1
+  }
+}

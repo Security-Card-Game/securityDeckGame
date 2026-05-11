@@ -1,0 +1,14 @@
+{
+  "title": "Legacy strikes again",
+  "description": "Technical debt? Rather close to bankruptcy! We've been long on the market and for a whole while it's been fine not to modernize. Now we're long beyond the point we should have invested and are stuck with a huge legacy system. Everything takes longer and costs more! We're trying to keep alive. Any big security incident would hurt us deeply as we won't be able to fix things in time before people move on to our competitors.",
+  "preset": {
+    "resources": 600,
+    "reputation": 60,
+    "resourceGain": 5,
+    "multiplier": 10
+  },
+  "goal": {
+    "minimumResources": 500,
+    "minimumReputation": 40
+  }
+}

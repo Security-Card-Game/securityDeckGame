@@ -1,0 +1,14 @@
+{
+  "title": "Sustainable pace",
+  "description": "We've been around for a while and care deeply about people - our employees just as well as our customers. We invest carefully and thoughtfully into doing the right thing, while also slowly growing our company in a sustainable way. That's why we want to keep tech debt at bay and evolve our product just based on current needs.",
+  "preset": {
+    "resources": 300,
+    "reputation": 90,
+    "resourceGain": 10,
+    "multiplier": 3
+  },
+  "goal": {
+    "minimumResources": 350,
+    "minimumReputation": 80
+  }
+}
